@@ -1,0 +1,229 @@
+{
+	"name": "main",
+	"spinningCost": {
+		"item": {
+			"itemId": 32001,
+			"slots": 0,
+			"isTradable": true
+		},
+		"amount": 100
+	},
+	"rewardsList": [
+		{
+			"rarity": 0,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 0
+		},
+		{
+			"rarity": 1,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 50
+		},
+		{
+			"rarity": 3,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 500
+		},
+		{
+			"rarity": 3,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 200
+		},
+		{
+			"rarity": 0,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 0
+		},
+		{
+			"rarity": 1,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 50
+		},
+		{
+			"rarity": 2,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 100
+		},
+		{
+			"rarity": 4,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 5000
+		},
+		{
+			"rarity": 2,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 100
+		},
+		{
+			"rarity": 1,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 50
+		},
+		{
+			"rarity": 0,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 0
+		},
+		{
+			"rarity": 1,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 50
+		},
+		{
+			"rarity": 3,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 400
+		},
+		{
+			"rarity": 2,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 100
+		},
+		{
+			"rarity": 1,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 50
+		},
+		{
+			"rarity": 2,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 100
+		},
+		{
+			"rarity": 0,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 0
+		},
+		{
+			"rarity": 3,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 500
+		},
+		{
+			"rarity": 0,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 0
+		},
+		{
+			"rarity": 2,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 100
+		},
+		{
+			"rarity": 3,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 300
+		},
+		{
+			"rarity": 3,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 200
+		},
+		{
+			"rarity": 0,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 0
+		},
+		{
+			"rarity": 3,
+			"item": {
+				"itemId": 32001,
+				"slots": 0,
+				"isTradable": true
+			},
+			"amount": 300
+		}
+	]
+}
