@@ -2,15 +2,22 @@ package com.example.demo.services.impl;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import com.example.demo.models.PlayRequest;
 import com.example.demo.models.Reward;
 import com.example.demo.models.Wheel;
 import com.example.demo.models.lotteryResult;
 import com.example.demo.services.ILotteryService;
+import com.example.demo.services.IWheelService;
 
 public class LotteryServiceImpl implements ILotteryService {
 
-	private WheelServiceImpl wheelService = new WheelServiceImpl();
+	private IWheelService wheelService;
+
+	public LotteryServiceImpl(IWheelService wheelService) {
+		this.wheelService = wheelService;
+	}
 
 	@Override
 	public lotteryResult spinTheWheel(PlayRequest playRequest) {
@@ -18,7 +25,6 @@ public class LotteryServiceImpl implements ILotteryService {
 		int randomNumber = this.generateRandomNumber(wheel);
 		Reward reward = this.determineReward(wheel, randomNumber);
 		lotteryResult result = new lotteryResult(randomNumber, reward);
-		System.out.println(result.toString());
 		return result;
 	}
 
