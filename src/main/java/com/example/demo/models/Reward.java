@@ -39,4 +39,10 @@ public class Reward {
 		this.amount = amount;
 	}
 	
+	@Override
+	public String toString() {
+		return "rarity : " + this.getRarity() +
+				"\nitem : \n" + this.getItem() +
+				"\namount : " + this.getAmount();
+	}
 }

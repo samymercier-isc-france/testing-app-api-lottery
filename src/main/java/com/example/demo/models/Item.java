@@ -3,7 +3,7 @@ package com.example.demo.models;
 public class Item {
 	private long itemId;
 	private int slots;
-	private int sort;
+	private int sort = 127;
 	private int maxUpgrade;
 	private int enchant;
 	private int enchantAmount;
@@ -125,6 +125,18 @@ public class Item {
 		this.isTradable = isTradable;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "itemId : " + this.getItemId() + "\n" +
+				"slots : " + this.getSlots() + "\n" +
+				"sort : " + this.getSort()  + "\n" +
+				"maxUpgrade : " + this.getMaxUpgrade()  + "\n" +
+				"enchant : " + this.getEnchant() + "\n" +
+				"enchantAmount : " + this.getEnchantAmount() + "\n" +
+				"isTradable : " + this.getIsTradable() + "\n" +
+				"uniqueId : " + this.getUniqueId() + "\n" +
+				"attached : " + this.getAttached() + "\n" +
+				"potential : " + this.getPotential();
+ 	}
 	
 }
