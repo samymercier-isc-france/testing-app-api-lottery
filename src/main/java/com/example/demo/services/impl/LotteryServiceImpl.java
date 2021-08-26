@@ -1,9 +1,5 @@
 package com.example.demo.services.impl;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.example.demo.models.PlayRequest;
 import com.example.demo.models.Reward;
 import com.example.demo.models.Wheel;
@@ -41,11 +37,14 @@ public class LotteryServiceImpl implements ILotteryService {
 		}
 		return randomNumber;
 	}
-	
+
 	private Reward determineReward(Wheel wheel, int number) {
-		List<Reward> rewards = wheel.getRewardsList();
-		Reward reward = rewards.get((number)/rewards.size());
-		return reward;
+		for (int index = 0; index < wheel.getRewardsList().size(); index++) {
+			if (number > 15 * index && number < 15 * (index + 1)) {
+					return wheel.getRewardsList().get(index);
+			}
+		}
+		return null;
 	}
 
 }
